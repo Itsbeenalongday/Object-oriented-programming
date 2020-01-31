@@ -1,0 +1,14 @@
+Cause of Error
+: java is case sensitive
+
+How can I fix this error?
+: 
+Account myAccount = new Account();
+this code wrong.
+so i change this code.
+like this
+ACCOUNT myAccount = new ACCOUNT();
+
+OR
+
+Rename the file to Account.java

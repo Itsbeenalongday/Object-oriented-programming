@@ -1,0 +1,8 @@
+why there is no compilation error?
+:
+If you don't write anything before the class name, 
+it becomes the default access attribute, 
+in which case you can't call another package, 
+but you can access it within the same package.
+Since both Account.java and AccountTest.java files belong to the default package, no error occurs.
+ 

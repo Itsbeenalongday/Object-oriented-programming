@@ -1,0 +1,10 @@
+Cause of error
+:
+As mentioned in task3, if you write nothing before classname, 
+it becomes the default access property and cannot be accessed from other packages.
+This is why an error occurs
+
+How can I fix error?
+:
+Save Account.java file and AccountTest.java file in the same package or 
+add Public in front of class name in source code of Account.java.

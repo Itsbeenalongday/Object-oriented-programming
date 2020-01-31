@@ -1,0 +1,12 @@
+Cause of Error
+:
+To refer to a variable or method of a class in another package, you must compile all classes in the directory you want to reference using the import statement. 
+In this case, however, the package cannot be referenced because the package to be referred to is not specified by the import statement.
+(korean)
+다른 패키지의 클래스의 변수나 메서드를 참조하기 위해서는 import문을 이용해서 참조하고자 하는 디렉토리 내의 모든 클래스를 읽어와야 컴파일이 가능하다. 
+하지만 이경우에는 import문으로 참조하고자 하는 패키지를 지정해주지 않아서 참조를 못하는 것이다.
+
+How can I fix error?
+:
+Add import AccountPackage. *; Code to the source code of AccountTest.java file.
+This code means that all classes in AccountPackage can be referenced.
